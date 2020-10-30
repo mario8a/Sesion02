@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #fffbf7;
+   font-family: 'Courgette', cursive;
+}
+
+/* Header */
+.header {
+   margin-top: 40px;
+   margin-left: 20px;
+   margin-right: 20px;
+   height: 45px;
+   font-size: 0;
+}
+.header > * {
+   display: inline-block;
+   font-size: 16px;
+   vertical-align: middle;
+   height: 100%;
+   line-height: 45px;
+ }
+
+
+.logo {
+   width: 15%;
+}
+
+.logo > img {
+   height: 100%;
+ }
+ 
+.navbar {
+   width: 70%;
+   text-align: center;
+   color: #025157;
+   font-weight: 500;
+   text-align: center;
+ }
+
+ .menu-item {
+   display: inline;
+   margin-right: 25px;
+   margin-left: 25px;
+   cursor: pointer;
+ }
+
+ .actions button {
+    font-weight: bold;
+ }
+ 
+.actions {
+   width: 15%;
+   text-align: right;
+   font-size: 14px;
+ }
+
+ .actions > * {
+   margin-right: 10px;
+   margin-left: 10px;
+ }
+
+ .actions a {
+    color: #67b54b;
+ }
+
+ .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+ }
+
+/* Contenido */
+/* article {
+   margin: 12px;
+}
+
+h1 {
+  color: #025157;
+}
+
+h4 {
+   color: #46484c;
+}
+
+p {
+   color: #8b8b8bcc;
+}
+
+button {
+   background-color: #025157;
+   color: #fff;
+} */
+
+
+
+/* Header */
+.footer {
+   margin-top: 40px;
+   margin-left: 20px;
+   margin-right: 20px;
+   height: 45px;
+   font-size: 0;
+}
+.footer > * {
+   display: inline-block;
+   font-size: 16px;
+   vertical-align: middle;
+   height: 100%;
+   line-height: 45px;
+ }
+
+
+.logo-footer {
+   width: 15%;
+}
+
+.logo-footer > img {
+   height: 100%;
+ }
+ 
+.navbar-footer {
+   width: 70%;
+   text-align: center;
+   color: #025157;
+   font-weight: 500;
+   text-align: left;
+ }
+.social {
+   display: inline;
+   margin-right: 12px;
+   cursor: pointer;
+ }
+ 
+.copy {
+   width: 15%;
+   text-align: right;
+   font-size: 12px;
+   font-weight: lighter;
+ }
+
+ .copy > * {
+   margin-right: 10px;
+   margin-left: 10px;
+ }
